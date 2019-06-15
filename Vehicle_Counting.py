@@ -145,8 +145,8 @@ while True:
             output_video.write(frame)
 
         # visualize vehicle counting
-        resized_frame = cv2.resize(frame, (858, 480))
-        cv2.imshow('tracking', resized_frame)
+        # resized_frame = cv2.resize(frame, (858, 480))
+        # cv2.imshow('tracking', resized_frame)
 
         frame_counter += 1
 
